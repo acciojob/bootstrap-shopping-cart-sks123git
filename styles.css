@@ -12,11 +12,12 @@
 .block-heading {
   text-align: center;
   color: #3b99e0;
-}
-
-.intro-text {
   max-width: 33.333%;
   margin-bottom: 2rem;
+}
+
+.block-heading h2 {
+  color: #3b99e0;
 }
 
 h3 {
