@@ -20,6 +20,10 @@
   color: #3b99e0;
 }
 
+.block-heading p {
+	text-align: center;
+	color: black;
+}
 h3 {
   color: #3b99e0;
 }
