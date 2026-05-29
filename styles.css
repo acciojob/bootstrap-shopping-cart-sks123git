@@ -1,42 +1,77 @@
-/*  your css code here. If applicable */
 .main {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
   background-color: rgb(193, 192, 192);
 }
 
-.head {
+.block-heading {
+  text-align: center;
   color: #3b99e0;
 }
 
-.summary {
-  border-top: 2px solid #3b99e0;
-  background-color: #f7fbff !important;
+.intro-text {
+  max-width: 33.333%;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: #3b99e0;
+}
+
+.product {
+  background-color: #fff;
+  padding: 1.5rem 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .quantity {
   width: 60px;
 }
+
 .summary {
+  border-top: 2px solid #5ea4f3;
+  background-color: #f7fbff;
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
 }
+
 .summary > h3 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
+
 .summary-items {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding: 0px 0px 10px 0px;
-  border-bottom: 1px solid gray;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 1px solid #ccc;
 }
 
 .no-border {
-  border: none !important;
+  border-bottom: none !important;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #3b99e0;
+  border: none;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.checkout-btn:hover {
+  color: #fff;
+  background-color: #2d7ab8;
 }
